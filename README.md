@@ -19,13 +19,20 @@ Analyze school district data based on student funding and students' standardized
 
 ## Results
 ### How is the district summary affected?
+district_summary_df 
 ### How is the school summary affected?
+per_school_summary_df 
 ### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+Replacing the Thomas High School ninth grader's math and reading scores increased the ranking of Thomas High School because the math and reading scores reflected higher math and reading score passing percentages. Most notably, Thomas High School is ranked among the top five schools. Which may be attributed to replacing the ninth graders' math and reading score rather than actual student performance.
 ### How does replacing the ninth-grade scores affect the following:
 - Math and reading scores by grade
+  - For math and reading scores by grade, each calculation is limited to data from the respecive grade. Replacing the ninth-grade scores had no affect on the grades of the tenth, eleventh, and twelfth grade scores at Thomas High School or any other High School. 
 - Scores by school spending
+  - Thomas High School has a budget of $1,043,130 and a per student capita of $638. The increased school performance could potentially affect conclusions made for schools that spend ~$630-$644 per student.
 - Scores by school size
+  - Thomas High School has 1635 students. Their increased performance could potentially effect conclusions made for schools classified as "Medium" (1000-2000 students).
 - Scores by school type
+  - Thomas High School is a charter schoool. The reflected increased school performance could potentially affect conclusions made for charter schools. 
 ## Summary
 ### Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs
-
+Thomas High School passing math percentages were increased from 66.911315% to 93.185690%. The passing reading percentages were increased from 69.663609% to 97.018739%. Lastly, the percentage of students passing both math and reading were increased from 65.076453% to 90.630324%. Replacing the ninth grade reading and math scores improves the performance of Thomas High School compared to other schools in the district and allowed for Thomas High School to be ranked within the to performing schools in the district. The results pose a challenge for having an accurate representation of Thomas High School within the distict. The increased performance results could lead to innacurate conclusions made for charter schools, schools classified as "Medium", and schools that spend $630-644 per student.  
