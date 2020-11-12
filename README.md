@@ -18,10 +18,13 @@ Analyze school district data based on student funding and students' standardized
 - Software: Python 3.9.0, Anaconda 4.9.1, Visual Studio Code 1.49.3
 
 ## Results
-### How is the district summary affected?
-district_summary_df 
-### How is the school summary affected?
-per_school_summary_df 
+### How is the district summary affected? How is the school summary affected?
+#### School District summary before replacing the Thomas High School ninth graders' math and reading scores.
+<img width="800" alt="per_school_summary" src="https://user-images.githubusercontent.com/72039212/98992037-48620100-24f2-11eb-92a2-d3b19fbdf12f.png">
+
+#### School District summary after replacing the Thomas High School ninth graders' math and reading scores.
+<img width="802" alt="per_school_summary_updated" src="https://user-images.githubusercontent.com/72039212/98991765-e99c8780-24f1-11eb-94ca-158302d44551.png">
+
 ### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 Replacing the Thomas High School ninth grader's math and reading scores increased the ranking of Thomas High School because the math and reading scores reflected higher math and reading score passing percentages. Most notably, Thomas High School is ranked among the top five schools. Which may be attributed to replacing the ninth graders' math and reading score rather than actual student performance.
 ### How does replacing the ninth-grade scores affect the following:
